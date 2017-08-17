@@ -1,0 +1,26 @@
+/**
+ * Pagination container
+ */
+.pagination-wrapper{
+    text-align: center;
+    padding: 20px;
+}
+.pagination-wrapper .pagination{
+    justify-content: center;
+}
+/**
+ * All item in pagination
+ */
+.pagination-wrapper .pagination .nav-links > *{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #e3f7f4;
+    color: #58E5D0;
+}
+/**
+ * Current page
+ */
+.pagination-wrapper .pagination .nav-links .current{
+    background-color: #58E5D0;
+    color: #fff;
+}

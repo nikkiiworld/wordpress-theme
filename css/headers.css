@@ -1,0 +1,78 @@
+/* * * * * * * * * * * * * * * * * * * * * * * *
+* HEADER STYLE 1 START  .blog-header-1         *
+** * * * * * * * * * * * * * * * * * * * * * * */
+
+/**
+ * Show message if no top navigation
+ */
+.navigation-top .nav-error{
+    text-align: center;
+    color: #57e5d0;
+    text-transform: uppercase;
+}
+
+/**
+ * Header
+ */
+.blog-header-1{
+    /*background-image: url(../images/pexels-photo-195280-min.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,.55);
+    background-blend-mode: soft-light;
+    padding: 8rem;
+    color: rgba(255,255,255, .85);
+    text-align: center;
+}
+
+/**
+ * Header title
+ */
+.blog-header-1 .title{
+    padding: 1rem 2rem;
+    background-color: rgba(0,0,0,0);
+    display: inline-block;
+    font-weight: 300 !important;
+    font-size: 4rem;
+    position: relative;
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+}
+.blog-header-1 .title::after{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 3px;
+    background-color: #FFE57C;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -20%;
+}
+
+/**
+ * Header description
+ */
+.blog-header-1 .description{
+    padding: .5rem 2rem;
+    background-color: rgba(0,0,0,0);
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+}
+/**
+ * Header on mobile / small screen
+ */
+@media (max-width: 700px) {
+    .blog-header-1{
+        padding: 40px 0 !important;
+    }
+    .blog-header-1 .title{
+        font-size: 3rem;
+    }
+    .blog-header-1 .description{
+        text-indent: 0;
+        padding: .5rem;
+        font-size: .85rem;
+        line-height: 1.5rem;
+    }
+}

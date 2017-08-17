@@ -1,0 +1,25 @@
+/*
+Theme Name: Wordpress Base theme by nikkiiworld.hu
+Theme URI: http://nikkiiworld.hu
+Author: Nikkii
+Author URI: http://nikkiiworld.hu
+Description: Wordpress theme base, with multiple options
+Version: 0.0.1
+License: GNU GENERAL PUBLIC LICENSE 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: blog, widget-ready, featured-images, responsive, custom-menu, custom-logo
+*/
+
+#main-header{
+    background-size: cover;
+    background: url('images/11.jpg') center;
+    min-height: 600px;
+    display: block;
+}
+
+
+
+
+
+
+

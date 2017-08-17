@@ -1,0 +1,15 @@
+/**
+ * Footer
+ */
+footer.footer{
+    background-color: #222;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 10px;
+}
+/**
+ * Footer text
+ */
+.footer .text-muted{
+    margin-bottom: 0!important;
+}

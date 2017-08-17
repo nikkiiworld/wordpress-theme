@@ -1,0 +1,120 @@
+/**
+ * Post
+ */
+.blog-main .card{
+    background-color: #fff;
+    background-clip: border-box;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: rgba(0,0,0,.05) 0 0 50px;
+    margin: 2rem 0;
+}
+/**
+ * Post featured image
+ */
+.blog-main .card .featured-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 !important;
+}
+/**
+ * Post body
+ */
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 1rem;
+}
+/**
+ * Category
+ */
+.blog-main .card .category{
+    padding: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+/**
+ * Title
+ */
+.blog-main .card .card-title{
+    text-align: center;
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+    font-size: 21px !important;
+    position: relative;
+    padding-top: 0;
+}
+.single-post .blog-main.full-page .card .card-title{
+    padding-top: 20px;
+}
+.blog-main .card .card-title::after{
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 3px;
+    padding-top: 10x;
+    background-color: #FFE57C;
+    margin: 5px auto;
+}
+
+/**
+ * Date
+ */
+.blog-main .card .card-date{
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    text-align: center;
+}
+.blog-main .card .card-date span{
+    padding: 0 10px;
+}
+
+/**
+ * Post content
+ */
+.blog-main .card .card-text{
+    padding: 20px 5px;
+    text-align: justify;
+}
+
+/**
+ * Post bottom
+ */
+.blog-main .card .card-bottom .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #efefef;
+    font-size: 10px !important;
+    text-transform: uppercase;
+    min-height: 50px;
+}
+.blog-main .card .card-bottom .col i.fa{
+    padding: 0 5px;
+}
+/**
+ * Tags
+ */
+.blog-main .card .card-bottom .tags{
+    color: #58E5D0;
+}
+
+/**
+ * Right border for comment and social links
+ */
+.blog-main .card .card-bottom .col:not(:last-of-type){
+    border-right: 1px solid #efefef;
+}
+
+/**
+ * Social links
+ */
+ul.wpfai-list li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.social-links .wpfai-list a{
+    color: #FFE57C !important;
+}
+

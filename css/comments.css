@@ -1,0 +1,74 @@
+/**
+ * Comments
+ */
+.commentlist{
+    list-style: none;
+    margin-left: 0;
+    -webkit-padding-start: 0;
+}
+/**
+ * Comments section title (Comments(2))
+ */
+#comments-title, .comment-reply-title{
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+    font-size: 18px !important;
+    padding: 10px;
+}
+#comments-title{
+    text-align: right;
+}
+/**
+ * Single Comment, CommentForm container
+ */
+.comment, .comment-respond{
+    background: #fff;
+    border: 1px solid #f7f7f7;
+    box-shadow: rgba(0,0,0,.05) 0 0 50px;
+    padding: 15px;
+    margin: 20px 0;
+}
+/**
+ * Avatar
+ */
+.comment .comment-meta .avatar{
+    display: inline-block;
+}
+.comment .comment-meta .avatar img.avatar{
+    margin: 5px;
+}
+/**
+ * Date
+ */
+.comment .comment-meta .date{
+    display: inline-block;
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+    font-size: 16px !important;
+    padding: 5px 15px;
+}
+/**
+ * Author
+ */
+.comment .comment-meta .comment-author{
+    display: inline-block;
+    font-family: 'Playfair Display', 'Open Sans', sans-serif;
+    font-size: 18px !important;
+    padding: 5px 15px;
+}
+/**
+ * Reply
+ */
+.comment .comment-meta .reply{
+    display: inline-block;
+    padding: 5px 15px;
+}
+.comment .comment-meta .reply a::before{
+    content: '\f112 ';
+    font-family: FontAwesome, sans-serif;
+    padding: 5px;
+}
+/**
+ * Comment awaiting message
+ */
+.comment-text .alert{
+    margin-top: 20px;
+}
